@@ -1,0 +1,18 @@
+{
+  "name": "paranoid-cca",
+  "version": "1.0.0",
+  "description": "PARANOID: AI Architectural Judgment Game for CCA Prep",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:init": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@kapso/whatsapp-cloud-api": "^0.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  }
+}
